@@ -1,0 +1,21 @@
+<h1>user component!</h1>
+
+<table [cellPadding]="10" [border]="1" [cellSpacing]="0">
+    <tr>
+        <th>image</th>
+        <th>firstname</th>
+        <th>lastname</th>
+        <th>age</th>
+    </tr>
+    <tr>
+        <td>
+            <img src="{{ user.imagepath }}" alt="" width="50">
+        </td>
+        <td>{{ user.fisrtname }}</td>
+        <td>{{ user.lastname }}</td>
+        <td>{{ user.age }}</td>
+   
+    </tr>
+</table>
+
+<!-- <button (click)="goToRegister()">go to Register</button> -->
